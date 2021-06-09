@@ -1,0 +1,64 @@
+@import "../Assets/Variables.scss";
+
+.Header {
+  height: 150px;
+  width: 80%;
+  border-bottom: 2px solid $whiteFont;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .Header_title {
+    font-family: $font-title-2;
+    font-size: 40px;
+    text-align: center;
+    animation: fluido 10s ease-in-out infinite;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 300%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  @keyframes fluido {
+    0% {
+      background-position: 0 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0 50%;
+    }
+  }
+
+  .Header_aside-left,
+  .Header_aside-right {
+    width: 20%;
+    text-align: center;
+    border: 1px solid $whiteFont;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+    font-family: $font-p;
+    font-size: 11px;
+  }
+  .Header_aside-left {
+    border: none;
+  }
+}
+
+@media screen and (min-width: 320px) and(max-width:700px) {
+  .Header {
+    .Header_title {
+      font-size: 1.7em;
+      margin: 0.1rem;
+    }
+    .Header_aside-left,
+    .Header_aside-right {
+      font-size: 0.5rem;
+      padding: 23px;
+    }
+  }
+}

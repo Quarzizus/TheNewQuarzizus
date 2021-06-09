@@ -1,0 +1,7 @@
+.Main {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-gap: 10px;
+  height: minmax(100vh, auto);
+}

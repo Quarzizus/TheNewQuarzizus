@@ -22,10 +22,12 @@ picture {
     width: 100%;
   }
 }
+
 p {
   font-family: $font-p-2;
   margin-top: 0.7rem;
   font-size: 1rem;
+  transition: 1s ease all;
 }
 
 @keyframes fluido {
@@ -37,5 +39,11 @@ p {
   }
   100% {
     background-position: 0 50%;
+  }
+}
+
+@media screen and (min-width: 320px) and(max-width:700px) {
+  .AboutMe {
+    margin-right: 0;
   }
 }

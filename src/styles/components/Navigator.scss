@@ -1,19 +1,20 @@
 @import "../Assets/Variables.scss";
 
-.Navigator {
+.Navigator-active {
   grid-column: 1/2;
   align-self: flex-start;
   margin: 10px 0 0 11%;
   height: 250px;
   position: sticky;
   top: 0;
+  display: block;
   ul {
     display: flex;
     align-items: start;
     flex-direction: column;
     justify-content: space-evenly;
     height: 95%;
-    border-left: 1px solid $whiteFont;
+    border-left: 2px inset $whiteFont;
     li {
       list-style: none;
       font-size: 1.1rem;
@@ -21,9 +22,11 @@
       font-weight: bold;
       position: relative;
       margin-left: 10px;
+      transition: 0.2 ease all;
     }
     .Link:hover {
-      color: rgb(250, 0, 0);
+      font-weight: bold;
+      color: white;
     }
     li::before {
       position: absolute;
@@ -52,13 +55,48 @@
     }
   }
 }
-
+.Navigator {
+  position: sticky;
+  display: none;
+  cursor: pointer;
+  justify-self: end;
+  top: 5px;
+  margin: 5px 10% 0 0;
+  width: 20px;
+  animation: fluido 10s ease-in-out infinite;
+  background: linear-gradient(
+    -45deg,
+    #ee76526e,
+    #e73c7e5b,
+    #23a5d55b,
+    #23d5ab5d
+  );
+  background-size: 300%;
+  -webkit-text-fill-color: transparent;
+  border: 0.5px solid white;
+  border-radius: 55%;
+  transition: 1s ease all;
+}
 @media screen and (min-width: 320px) and(max-width:700px) {
-  .Navigator {
+  .Navigator-active {
+    background-color: rgba(228, 238, 235, 0.233);
+    margin: 0;
+    display: none;
     ul {
       li {
         font-size: 1rem;
       }
     }
+  }
+
+  .None {
+    display: none;
+    transform: scale(0);
+    transition: all 1s ease;
+  }
+  .Block {
+    transform: scale(1);
+    transition: all 1s ease;
+    display: block;
   }
 }

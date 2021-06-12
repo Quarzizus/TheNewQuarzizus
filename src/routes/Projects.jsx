@@ -1,17 +1,25 @@
 import React from "react";
+import Project from "../components/Project";
+import { initialState } from "../context/initialState";
+import "../styles/routes/Projects.scss";
 
-const Project = () => {
+const Projects = () => {
   return (
-    <div>
-      <h1>Project</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid odit
-        repellendus nisi consequuntur facilis cupiditate? Quam harum debitis
-        mollitia nihil, modi libero doloremque, iusto facilis, iure eveniet
-        tenetur sed autem!
-      </p>
-    </div>
+    <section className="Projects">
+      <h2>Projects</h2>
+      {initialState.map((project) => {
+        return (
+          <Project
+            img={project.image}
+            title={project.title}
+            description={project.description}
+            repo={project.repo}
+            page={project.page}
+          />
+        );
+      })}
+    </section>
   );
 };
 
-export default Project;
+export default Projects;

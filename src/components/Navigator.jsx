@@ -21,11 +21,9 @@ const Navigator = () => {
   };
   return (
     <>
-      {/* {!active ? ( */}
-      <button className="Navigator Block" onClick={handleOpen}>
+      <button className="Navigator Block" onClick={handleOpen} title="Menu">
         X
       </button>
-      {/* ) : ( */}
       <nav className="Navigator-active None" onClick={handleClose}>
         <ul>
           <li>
@@ -45,7 +43,6 @@ const Navigator = () => {
           </li>
         </ul>
       </nav>
-      {/* )} */}
     </>
   );
 };

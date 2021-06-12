@@ -12,10 +12,18 @@ const AboutMe = () => {
         <img src={Perfil} alt="" />
       </picture>
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, velit.
-        At unde mollitia perspiciatis cumque, dicta laborum illo quam modi
-        delectus vitae animi distinctio minima dolorem facilis quasi similique
-        itaque.
+        I am frontend developer passionate for the technology computer and
+        education. Thus is ! also I love to learn about education and somes
+        others subject. I tell you ? Lets begin !
+      </p>
+      <ul>
+        <li>To tell short histories</li>
+        <li>To play piano</li>
+        <li>To compose music</li>
+      </ul>
+      <p>
+        I am currently learning React.js and Redux. In my repositories books you
+        would see my progress.
       </p>
     </section>
   );

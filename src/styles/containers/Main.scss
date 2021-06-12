@@ -6,10 +6,10 @@
   height: minmax(100vh, auto);
 }
 
-@media screen and (min-width: 320px) and (max-width: 700px) {
+@media screen and (min-width: 215px) and (max-width: 700px) {
   .Main {
     grid-template-columns: 100%;
     width: 100%;
-    padding: 10px 0;
+    padding: 10px;
   }
 }

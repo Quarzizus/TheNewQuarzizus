@@ -1,16 +1,44 @@
 import React from "react";
+import GithubIcon from "../images/github.svg";
+import TwitterIcon from "../images/twitter.svg";
+import LinkedinIcon from "../images/linkedin.svg";
+import "../styles/routes/ContactMe.scss";
 
 const ContactMe = () => {
   return (
-    <div>
-      <h1>Contact me</h1>
+    <section className="ContactMe">
+      <h2>Contact me</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum in
-        molestiae consequuntur aliquid neque sunt, eos nobis unde quisquam.
-        Deleniti voluptas quos nam consectetur neque officia quis porro ullam
-        cupiditate.
+        You can contact me for those mediums, I would delighted to talk with you
       </p>
-    </div>
+      <article>
+        <img src={GithubIcon} />
+        <h4>
+          <a href="https://github.com/Quarzizus" target="_blank">
+            Quarzizus
+          </a>
+        </h4>
+      </article>
+      <article>
+        <img src={TwitterIcon} />
+        <h4>
+          <a href="https://twitter.com/quarzizus" target="_blank">
+            @Quarzizus
+          </a>
+        </h4>
+      </article>
+      <article>
+        <img src={LinkedinIcon} />
+        <h4>
+          <a
+            href="https://www.linkedin.com/in/miguel-angel-v%C3%A1squez-correa-6957251a5/"
+            target="_blank"
+          >
+            Miguel Vásquez
+          </a>
+        </h4>
+      </article>
+    </section>
   );
 };
 

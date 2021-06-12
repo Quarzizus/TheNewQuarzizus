@@ -1,10 +1,10 @@
 .Sections {
   grid-column: 2/3;
-  height: 150vh;
+  height: minmax(100vh, auto);
   padding: 30px 10%;
 }
 
-@media screen and (min-width: 320px) and (max-width: 700px) {
+@media screen and (min-width: 215px) and (max-width: 700px) {
   .Sections {
     grid-column: 1/2;
     width: 100%;

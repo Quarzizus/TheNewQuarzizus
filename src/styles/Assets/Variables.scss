@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap");
+
 $font-p: "Merriweather", serif;
 $font-p-1: "Special Elite", cursive;
 $font-p-2: "Oxygen", sans-serif;
@@ -13,3 +14,17 @@ $grayDark: #212121;
 $whiteLight: #fafafa;
 $whiteFont: rgb(240, 233, 232);
 $bluenew: rgb(25, 205, 250);
+
+@mixin textRGB {
+  animation: fluido 10s ease-in-out infinite;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 300%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@mixin backRGB {
+  animation: fluido 10s ease-in-out infinite;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 300%;
+}

@@ -1,9 +1,10 @@
-import concert from "../images/concert.jpg";
-import lazy from "../images/lazy.jpg";
-import ecommerce from "../images/ecommerce.jpg";
+import concert from "../images/concert.webp";
+import lazy from "../images/lazy.webp";
+import ecommerce from "../images/ecommerce.webp";
 
 export const initialState = [
   {
+    id: 1,
     title: "E-Commerce",
     image: ecommerce,
     description: `This project is set in Platzi,
@@ -15,6 +16,7 @@ export const initialState = [
     page: "https://e-platzicommerce.web.app/",
   },
   {
+    id: 2,
     title: "Radiohead Concert",
     image: concert,
     description: `Radiohead concert is a platform where you can 
@@ -24,6 +26,7 @@ export const initialState = [
     page: "https://github.com/Quarzizus",
   },
   {
+    id: 3,
     title: "Lazy Loading",
     image: lazy,
     description: `Lazy loading is a performance technique that seeks

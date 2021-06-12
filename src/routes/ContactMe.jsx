@@ -12,7 +12,7 @@ const ContactMe = () => {
         You can contact me for those mediums, I would delighted to talk with you
       </p>
       <article>
-        <img src={GithubIcon} />
+        <img src={GithubIcon} alt="Quarzizus Miguel Vásquez" />
         <h4>
           <a href="https://github.com/Quarzizus" target="_blank">
             Quarzizus
@@ -20,7 +20,7 @@ const ContactMe = () => {
         </h4>
       </article>
       <article>
-        <img src={TwitterIcon} />
+        <img src={TwitterIcon} alt="Quarzizus Miguel Vásquez" />
         <h4>
           <a href="https://twitter.com/quarzizus" target="_blank">
             @Quarzizus
@@ -28,7 +28,7 @@ const ContactMe = () => {
         </h4>
       </article>
       <article>
-        <img src={LinkedinIcon} />
+        <img src={LinkedinIcon} alt="Quarzizus Miguel Vásquez" />
         <h4>
           <a
             href="https://www.linkedin.com/in/miguel-angel-v%C3%A1squez-correa-6957251a5/"

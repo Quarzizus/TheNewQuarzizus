@@ -49,7 +49,7 @@ module.exports = {
       },
       {
         // rules for png, gif,jpg,svg
-        test: /\.(png|gif|jpg|svg)$/,
+        test: /\.(png|gif|jpg|svg|webp)$/,
         use: [
           {
             loader: "file-loader",

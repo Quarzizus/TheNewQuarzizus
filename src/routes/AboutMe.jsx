@@ -1,15 +1,15 @@
 import React from "react";
 import "../styles/routes/AboutMe.scss";
-import Perfil from "../images/Perfil.png";
+import Perfil from "../images/Perfil.webp";
 
 const AboutMe = () => {
   return (
     <section className="AboutMe">
       <h2>
-        Welcome !<br /> I am <span>Miguel Vásquez</span>{" "}
+        Welcome !<br /> I am <span>Miguel Vásquez</span>
       </h2>
       <picture>
-        <img src={Perfil} alt="" />
+        <img src={Perfil} alt="Quarzizus Miguel Vásquez" />
       </picture>
       <p>
         I am frontend developer passionate for the technology computer and

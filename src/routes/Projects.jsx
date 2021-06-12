@@ -10,6 +10,7 @@ const Projects = () => {
       {initialState.map((project) => {
         return (
           <Project
+            key={project.id}
             img={project.image}
             title={project.title}
             description={project.description}

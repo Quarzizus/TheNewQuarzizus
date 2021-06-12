@@ -22,7 +22,7 @@ const Navigator = () => {
   return (
     <>
       <button className="Navigator Block" onClick={handleOpen} title="Menu">
-        X
+        Z
       </button>
       <nav className="Navigator-active None" onClick={handleClose}>
         <ul>

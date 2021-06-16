@@ -8,9 +8,7 @@ const Header = () => {
         "Fracasa otra vez, fracasa mejor"
       </article>
       <h1 className="Header_title">The New Quarzizus Day</h1>
-      <article className="Header_aside-right">
-        Todos los derechos reservados @quarzizus
-      </article>
+      <article className="Header_aside-right">&copy; Miguel Vásquez</article>
     </header>
   );
 };

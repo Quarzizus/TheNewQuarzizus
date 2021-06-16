@@ -11,12 +11,12 @@ const Project = ({ img, title, description, repo, page }) => {
       <p>{description}</p>
       <section className="Project_buttons">
         <button className="button_repo">
-          <a href={repo} target="_blank">
+          <a href={repo} target="_blank" rel="noopener">
             Repo
           </a>
         </button>
         <button className="button_page">
-          <a href={page} target="_blank">
+          <a href={page} target="_blank" rel="noopener">
             Page
           </a>
         </button>

@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 import "../styles/components/Navigator.scss";
 
 const Navigator = () => {
@@ -22,7 +24,10 @@ const Navigator = () => {
   return (
     <>
       <button className="Navigator Block" onClick={handleOpen} title="Menu">
-        Z
+        <FontAwesomeIcon
+          icon={faBars}
+          style={{ color: "white", fontSize: "14px" }}
+        />
       </button>
       <nav className="Navigator-active None" onClick={handleClose}>
         <ul>

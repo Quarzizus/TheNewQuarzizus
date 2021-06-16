@@ -14,7 +14,7 @@ const ContactMe = () => {
       <article>
         <img src={GithubIcon} alt="Quarzizus Miguel Vásquez" />
         <h4>
-          <a href="https://github.com/Quarzizus" target="_blank">
+          <a href="https://github.com/Quarzizus" target="_blank" rel="noopener">
             Quarzizus
           </a>
         </h4>
@@ -22,7 +22,11 @@ const ContactMe = () => {
       <article>
         <img src={TwitterIcon} alt="Quarzizus Miguel Vásquez" />
         <h4>
-          <a href="https://twitter.com/quarzizus" target="_blank">
+          <a
+            href="https://twitter.com/quarzizus"
+            target="_blank"
+            rel="noopener"
+          >
             @Quarzizus
           </a>
         </h4>
@@ -33,6 +37,7 @@ const ContactMe = () => {
           <a
             href="https://www.linkedin.com/in/miguel-angel-v%C3%A1squez-correa-6957251a5/"
             target="_blank"
+            rel="noopener"
           >
             Miguel Vásquez
           </a>

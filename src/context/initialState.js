@@ -1,6 +1,6 @@
-import concert from "../images/concert.webp";
-import lazy from "../images/lazy.webp";
-import ecommerce from "../images/ecommerce.webp";
+import concert from "../images/Concert.webp";
+import lazy from "../images/Lazy.webp";
+import ecommerce from "../images/E-commerce.webp";
 
 export const initialState = [
   {

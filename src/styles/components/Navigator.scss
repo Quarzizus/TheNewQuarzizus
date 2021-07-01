@@ -74,12 +74,8 @@
 
   .None {
     display: none;
-    transform: scale(0);
-    transition: all 1s ease;
   }
   .Block {
-    transform: scale(1);
-    transition: all 1s ease;
     display: block;
   }
 }

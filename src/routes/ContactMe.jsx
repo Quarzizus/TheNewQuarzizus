@@ -2,6 +2,7 @@ import React from "react";
 import GithubIcon from "../images/github.svg";
 import TwitterIcon from "../images/twitter.svg";
 import LinkedinIcon from "../images/linkedin.svg";
+import PlatziIcon from "../images/platzi.png";
 import "../styles/routes/ContactMe.scss";
 
 const ContactMe = () => {
@@ -35,7 +36,19 @@ const ContactMe = () => {
         <img src={LinkedinIcon} alt="Quarzizus Miguel Vásquez" />
         <h4>
           <a
-            href="https://www.linkedin.com/in/miguel-angel-v%C3%A1squez-correa-6957251a5/"
+            href="https://www.linkedin.com/in/quarzizus/"
+            target="_blank"
+            rel="noopener"
+          >
+            Miguel Vásquez
+          </a>
+        </h4>
+      </article>
+      <article>
+        <img src={PlatziIcon} alt="Quarzizus Miguel Vásquez" />
+        <h4>
+          <a
+            href="https://platzi.com/p/quarzizus/"
             target="_blank"
             rel="noopener"
           >

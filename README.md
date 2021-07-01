@@ -1,3 +1,3 @@
 # Porfolio
 
-Page -> https://quarzizus.web.app/
+https://quarzizus.web.app/

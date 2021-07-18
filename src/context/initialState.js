@@ -1,6 +1,7 @@
 import concert from "../images/Concert.webp";
 import lazy from "../images/Lazy.webp";
 import ecommerce from "../images/E-commerce.webp";
+import weather from "../images/Weather.webp";
 
 export const initialState = [
   {
@@ -34,5 +35,14 @@ export const initialState = [
      It uses the foxes API and is built with JavaScript.`,
     repo: "https://github.com/Quarzizus/Lazy",
     page: "https://quarzizus.github.io/Lazy/",
+  },
+  {
+    id: 4,
+    title: "Sweet Weather",
+    image: weather,
+    description: `Sweet Weather is a Weather App built with React,
+     deployed with Firebase. It uses the API: openweather.`,
+    repo: "https://github.com/Quarzizus/Quarzizus-Weather",
+    page: "https://quarzizus-weather.web.app/",
   },
 ];

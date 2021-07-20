@@ -6,23 +6,20 @@ import weather from "../images/Weather.webp";
 export const initialState = [
   {
     id: 1,
-    title: "E-Commerce",
-    image: ecommerce,
-    description: `This project is set in Platzi,
-     (they are a start-up of e-learning) in which you will be able
-      to buy merchandising and pay with Paypal. 
-      Also, it has geolocalización for getting easier the address. 
-      It is built with React and leaflet for the maps.`,
-    repo: "https://github.com/Quarzizus/Tyni-e-commerce",
-    page: "https://e-platzicommerce.web.app/",
+    title: "Sweet Weather",
+    image: weather,
+    description: `Sweet Weather is a Weather App built with React,
+      deployed with Firebase. It uses the API: openweather.`,
+    repo: "https://github.com/Quarzizus/Quarzizus-Weather",
+    page: "https://quarzizus-weather.web.app/",
   },
   {
     id: 2,
     title: "Radiohead Concert",
     image: concert,
     description: `Radiohead concert is a platform where you can 
-    reserve your ticket and look who more have reserved too. 
-    This project is built with React and JSON placeholder as fake API.`,
+      reserve your ticket and look who more have reserved too. 
+      This project is built with React and JSON placeholder as fake API.`,
     repo: "https://github.com/Quarzizus/Radiohead",
     page: "https://radiohead-da064.web.app/",
   },
@@ -38,11 +35,14 @@ export const initialState = [
   },
   {
     id: 4,
-    title: "Sweet Weather",
-    image: weather,
-    description: `Sweet Weather is a Weather App built with React,
-     deployed with Firebase. It uses the API: openweather.`,
-    repo: "https://github.com/Quarzizus/Quarzizus-Weather",
-    page: "https://quarzizus-weather.web.app/",
+    title: "E-Commerce",
+    image: ecommerce,
+    description: `This project is set in Platzi,
+     (they are a start-up of e-learning) in which you will be able
+      to buy merchandising and pay with Paypal. 
+      Also, it has geolocalización for getting easier the address. 
+      It is built with React and leaflet for the maps.`,
+    repo: "https://github.com/Quarzizus/Tyni-e-commerce",
+    page: "https://e-platzicommerce.web.app/",
   },
 ];

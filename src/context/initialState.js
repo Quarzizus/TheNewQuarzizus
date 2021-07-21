@@ -25,6 +25,18 @@ export const initialState = [
   },
   {
     id: 3,
+    title: "E-Commerce",
+    image: ecommerce,
+    description: `This project is set in Platzi,
+    (they are a start-up of e-learning) in which you will be able
+    to buy merchandising and pay with Paypal. 
+    Also, it has geolocalización for getting easier the address. 
+    It is built with React and leaflet for the maps.`,
+    repo: "https://github.com/Quarzizus/Tyni-e-commerce",
+    page: "https://e-platzicommerce.web.app/",
+  },
+  {
+    id: 4,
     title: "Lazy Loading",
     image: lazy,
     description: `Lazy loading is a performance technique that seeks
@@ -32,17 +44,5 @@ export const initialState = [
      It uses the foxes API and is built with JavaScript.`,
     repo: "https://github.com/Quarzizus/Lazy",
     page: "https://quarzizus.github.io/Lazy/",
-  },
-  {
-    id: 4,
-    title: "E-Commerce",
-    image: ecommerce,
-    description: `This project is set in Platzi,
-     (they are a start-up of e-learning) in which you will be able
-      to buy merchandising and pay with Paypal. 
-      Also, it has geolocalización for getting easier the address. 
-      It is built with React and leaflet for the maps.`,
-    repo: "https://github.com/Quarzizus/Tyni-e-commerce",
-    page: "https://e-platzicommerce.web.app/",
   },
 ];

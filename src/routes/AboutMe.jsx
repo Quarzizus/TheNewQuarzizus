@@ -12,9 +12,9 @@ const AboutMe = () => {
         <img src={Perfil} alt="Quarzizus Miguel Vásquez" />
       </picture>
       <p>
-        I am frontend developer passionate for the technology computer and
-        education. Thus is ! also I love to learn about education and somes
-        others subject. I tell you ? Lets begin !
+        I am frontend developer passionate for the technology and education.
+        Thus is ! also I love to learn about education and somes others subject.
+        I tell you ? Lets begin !
       </p>
       <ul>
         <li>To tell short histories</li>
@@ -22,8 +22,8 @@ const AboutMe = () => {
         <li>To compose music</li>
       </ul>
       <p>
-        I am currently learning React.js and Redux. In my repositories books you
-        would see my progress.
+        I am currently learning React.js, Redux and Firebase. In my repositories
+        books you would see my progress.
       </p>
     </section>
   );

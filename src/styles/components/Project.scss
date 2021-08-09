@@ -17,10 +17,10 @@
     align-items: flex-start;
 
     button {
-      padding: 7px 10px;
+      padding: 8px 12px;
       border: none;
       font-family: $font-p;
-      font-size: 12px;
+      font-size: 14px;
       cursor: pointer;
       @include backRGB;
       a {

@@ -11,7 +11,7 @@ body {
 }
 
 .App {
-  width: 60%;
+  max-width: 740px;
   margin: auto;
   background-color: $grayDark;
   display: flex;

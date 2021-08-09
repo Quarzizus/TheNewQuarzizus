@@ -2,6 +2,7 @@ import concert from "../images/Concert.webp";
 import lazy from "../images/Lazy.webp";
 import ecommerce from "../images/E-commerce.webp";
 import weather from "../images/Weather.webp";
+import RPS from "../images/RPS.webp";
 
 export const initialState = [
   {
@@ -37,6 +38,15 @@ export const initialState = [
   },
   {
     id: 4,
+    title: "RPS-Quargame",
+    image: RPS,
+    description: `Try your luck with this game and leave your score at the top.
+    It was built with React and deployed with Firebase.`,
+    repo: "https://github.com/Quarzizus/Rock-Paper-Scissors",
+    page: "https://rps-quargame.web.app/",
+  },
+  {
+    id: 5,
     title: "Lazy Loading",
     image: lazy,
     description: `Lazy loading is a performance technique that seeks

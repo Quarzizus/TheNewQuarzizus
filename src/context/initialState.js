@@ -2,11 +2,21 @@ import concert from "../images/Concert.webp";
 import lazy from "../images/Lazy.webp";
 import ecommerce from "../images/E-commerce.webp";
 import weather from "../images/Weather.webp";
+import chat from "../images/Quarshichat.webp";
 import RPS from "../images/RPS.webp";
 
 export const initialState = [
   {
     id: 1,
+    title: "QuarShiChat",
+    image: chat,
+    description: `You can create channels for talk with your friends.
+      QuarShitChat is a chat realtime made with firebase (Database, Authentication, Hosting) and React.`,
+    repo: "https://github.com/Quarzizus/QuarShiChat",
+    page: "https://quarshichat.web.app/",
+  },
+  {
+    id: 2,
     title: "Sweet Weather",
     image: weather,
     description: `Sweet Weather is a Weather App built with React,
@@ -15,7 +25,7 @@ export const initialState = [
     page: "https://quarzizus-weather.web.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Radiohead Concert",
     image: concert,
     description: `Radiohead concert is a platform where you can 
@@ -25,7 +35,7 @@ export const initialState = [
     page: "https://radiohead-da064.web.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "E-Commerce",
     image: ecommerce,
     description: `This project is set in Platzi,
@@ -37,7 +47,7 @@ export const initialState = [
     page: "https://e-platzicommerce.web.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "RPS-Quargame",
     image: RPS,
     description: `Try your luck with this game and leave your score at the top.
@@ -46,7 +56,7 @@ export const initialState = [
     page: "https://rps-quargame.web.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Lazy Loading",
     image: lazy,
     description: `Lazy loading is a performance technique that seeks

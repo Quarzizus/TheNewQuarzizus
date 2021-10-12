@@ -10,6 +10,7 @@
 
   p {
     margin-bottom: 14px;
+    line-height: 26px;
   }
   .Project_buttons {
     display: flex;
@@ -21,6 +22,7 @@
       border: none;
       font-family: $font-p;
       font-size: 14px;
+      font-weight: bold;
       cursor: pointer;
       @include backRGB;
       a {

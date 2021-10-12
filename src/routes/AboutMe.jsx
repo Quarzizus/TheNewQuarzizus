@@ -6,7 +6,7 @@ const AboutMe = () => {
   return (
     <section className="AboutMe">
       <h2>
-        Welcome !<br /> I am <span>Miguel Vásquez</span>
+        Hi !<br /> I am <span>Miguel Vásquez</span>
       </h2>
       <picture>
         <img src={Perfil} alt="Quarzizus Miguel Vásquez" />
@@ -22,7 +22,7 @@ const AboutMe = () => {
         <li>To compose music</li>
       </ul>
       <p>
-        I am currently learning React.js, Redux and Firebase. In my repositories
+        I am currently learning React.js, Node and Express. In my repositories
         books you would see my progress.
       </p>
     </section>

@@ -7,13 +7,13 @@
   color: $whiteFont;
 }
 body {
-  background-color: rgb(19, 19, 19);
+  background: $background;
 }
 
 .App {
   max-width: 740px;
   margin: auto;
-  background-color: $grayDark;
+  background-color: $background;
   display: flex;
   min-height: 100vh;
   max-height: auto;

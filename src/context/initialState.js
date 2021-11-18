@@ -4,6 +4,7 @@ import ecommerce from "../images/E-commerce.webp";
 import weather from "../images/Weather.webp";
 import chat from "../images/Quarshichat.webp";
 import RPS from "../images/RPS.webp";
+import Petgram from "../images/Petgram.webp";
 
 export const initialState = [
   {
@@ -36,6 +37,15 @@ export const initialState = [
   },
   {
     id: 4,
+    title: "PetGram",
+    image: Petgram,
+    description: `PetGram is a replica of Instagram based on domestic animals. 
+      It is built in React and React Apollo like graphql client. Also, is a PWA.`,
+    repo: "https://github.com/Quarzizus/PetGram",
+    page: "https://petgram-d7d78.web.app",
+  },
+  {
+    id: 5,
     title: "E-Commerce",
     image: ecommerce,
     description: `This project is set in Platzi,
@@ -47,7 +57,7 @@ export const initialState = [
     page: "https://e-platzicommerce.web.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "RPS-Quargame",
     image: RPS,
     description: `Try your luck with this game and leave your score at the top.
@@ -56,7 +66,7 @@ export const initialState = [
     page: "https://rps-quargame.web.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Lazy Loading",
     image: lazy,
     description: `Lazy loading is a performance technique that seeks

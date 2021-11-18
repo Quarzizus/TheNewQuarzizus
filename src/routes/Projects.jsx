@@ -1,5 +1,6 @@
 import React, { Suspense } from "react";
 const Project = React.lazy(() => import("../components/Project"));
+import Loader from "../components/Loader";
 import { initialState } from "../context/initialState";
 import "../styles/routes/Projects.scss";
 
@@ -9,9 +10,8 @@ const Projects = () => {
       <h2>Projects</h2>
       {initialState.map((project) => {
         return (
-          <Suspense fallback={<h1>Holiwi...</h1>}>
+          <Suspense fallback={<Loader />} key={project.id}>
             <Project
-              key={project.id}
               img={project.image}
               title={project.title}
               description={project.description}

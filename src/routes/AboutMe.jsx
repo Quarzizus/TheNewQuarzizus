@@ -22,8 +22,8 @@ const AboutMe = () => {
         <li>To compose music</li>
       </ul>
       <p>
-        I am currently learning React.js, Node and Express. In my repositories
-        books you would see my progress.
+        I am currently learning Testing and Typescript to deep. In my
+        repositories you would see my progress.
       </p>
     </section>
   );

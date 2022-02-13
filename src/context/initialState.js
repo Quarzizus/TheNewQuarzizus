@@ -4,10 +4,21 @@ import chat from "../images/Quarshichat.webp";
 import RPS from "../images/RPS.webp";
 import Petgram from "../images/Petgram.webp";
 import DevUnited from "../images/DevUnited.png";
+import Keep from "../images/Keep.png";
 
 export const initialState = [
   {
     id: 0,
+    title: "Quarzizus Keep",
+    image: Keep,
+    description: `This project is a to-do app inspired by google keep.
+    With it's we can create notes and sort in of draggable way. 
+    Also, it has a Mansory design.`,
+    repo: "https://github.com/Quarzizus/QuarzizusKeep",
+    page: "https://quarzizuskeep.web.app",
+  },
+  {
+    id: 1,
     title: "Quarzizus DevUnited",
     image: DevUnited,
     description: `This project has two inspirations: pixel art and twitter.
@@ -16,7 +27,7 @@ export const initialState = [
     page: "https://quarzizusdevsunited.web.app",
   },
   {
-    id: 1,
+    id: 2,
     title: "PetGram",
     image: Petgram,
     description: `PetGram is a replica of Instagram based on domestic animals. 
@@ -25,7 +36,7 @@ export const initialState = [
     page: "https://petgram-d7d78.web.app",
   },
   {
-    id: 2,
+    id: 3,
     title: "Sweet Weather",
     image: weather,
     description: `Sweet Weather is a Weather App built with React,
@@ -34,7 +45,7 @@ export const initialState = [
     page: "https://quarzizus-weather.web.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "QuarShiChat",
     image: chat,
     description: `You can create channels for talk with your friends.
@@ -43,7 +54,7 @@ export const initialState = [
     page: "https://quarshichat.web.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "RPS-Quargame",
     image: RPS,
     description: `Try your luck with this game and leave your score at the top.
@@ -52,7 +63,7 @@ export const initialState = [
     page: "https://rps-quargame.web.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "E-Commerce",
     image: ecommerce,
     description: `This project is set in Platzi,

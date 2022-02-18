@@ -24,7 +24,7 @@ export const initialState = [
     description: `This project has two inspirations: pixel art and twitter.
     We will be able to connect and express all that we want through tweets.`,
     repo: "https://github.com/Quarzizus/Acamica-Sprint-4",
-    page: "https://quarzizusdevsunited.web.app",
+    page: "https://quarzizusdevsunited.firebaseapp.com",
   },
   {
     id: 2,

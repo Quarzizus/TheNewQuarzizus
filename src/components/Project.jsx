@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles/components/Project.scss";
 
 const Project = ({ img, title, description, repo, page }) => {

@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles/containers/Sections.scss";
 
 const Sections = ({ children }) => {

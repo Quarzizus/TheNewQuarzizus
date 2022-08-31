@@ -1,5 +1,4 @@
-import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "../containers/Layout";
 import AboutMe from "../routes/AboutMe";
 import Projects from "../routes/Projects";
@@ -9,11 +8,11 @@ const App = () => {
   return (
     <BrowserRouter>
       <Layout>
-        <Switch>
-          <Route exact path="/" component={AboutMe} />
-          <Route exact path="/projects" component={Projects} />
-          <Route exact path="/contactme" component={ContactMe} />
-        </Switch>
+        <Routes>
+          <Route exact path="/" element={<AboutMe />} />
+          <Route exact path="/projects" element={<Projects />} />
+          <Route exact path="/contactme" element={<ContactMe />} />
+        </Routes>
       </Layout>
     </BrowserRouter>
   );

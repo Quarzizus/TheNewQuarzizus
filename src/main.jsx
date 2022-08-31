@@ -1,6 +1,11 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 import App from "./containers/App";
 import "./styles/Assets/Normalize.scss";
 
-ReactDOM.render(<App />, document.getElementById("App"));
+const root = ReactDOM.createRoot(document.getElementById("App"));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);

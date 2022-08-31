@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles/containers/Main.scss";
 
 const Main = ({ children }) => {

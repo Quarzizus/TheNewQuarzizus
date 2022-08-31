@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles/containers/Layout.scss";
 import Header from "../components/Header";
 import Navigator from "../components/Navigator";

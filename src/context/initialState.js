@@ -5,6 +5,7 @@ import RPS from "../images/RPS.webp";
 import Petgram from "../images/Petgram.webp";
 import DevUnited from "../images/DevUnited.png";
 import Keep from "../images/Keep.png";
+import Memory from "../images/Memory.png";
 
 export const initialState = [
   {
@@ -73,5 +74,14 @@ export const initialState = [
     It is built with React and leaflet for the maps.`,
     repo: "https://github.com/Quarzizus/Tyni-e-commerce",
     page: "https://e-platzicommerce.web.app/",
+  },
+  {
+    id: 7,
+    title: "Quarzizus Memory",
+    image: Memory,
+    description: `Quarzizus Memory is a game focused in the memory with tematic animals. 
+    It is build with Typescript and React as mains tools`,
+    repo: "https://github.com/Quarzizus/QuarzizusMemory",
+    page: "https://quarzizusmemory.web.app/",
   },
 ];

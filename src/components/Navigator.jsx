@@ -33,6 +33,7 @@ const Navigator = () => {
         ref={navRef}
       >
         <FontAwesomeIcon
+          className="Hambuguer_icon"
           icon={faBars}
           style={{ color: "white", fontSize: "14px" }}
         />

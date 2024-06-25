@@ -7,9 +7,10 @@ import "./styles.scss";
 const ContactMe = () => {
   return (
     <section className="ContactMe">
-      <h2>Contact me</h2>
+      <h2>Contáctame</h2>
       <p>
-        You can contact me for those mediums, I would delighted to talk with you
+        Puedes contactarme por los siguientes medios. Estaré encantado de
+        conversar contigo.
       </p>
       <article>
         <img src={GithubIcon} alt="Quarzizus Miguel Vásquez" />
@@ -35,7 +36,7 @@ const ContactMe = () => {
         <img src={LinkedinIcon} alt="Quarzizus Miguel Vásquez" />
         <h4>
           <a
-            href="https://www.linkedin.com/in/quarzizus/"
+            href="https://www.linkedin.com/in/miguel-vasquez-correa/"
             target="_blank"
             rel="noopener"
           >

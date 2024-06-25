@@ -7,7 +7,7 @@ const Results = () => {
       <p className="title">Resultados</p>
       <div className="container">
         {Items.map((item) => (
-          <a className="item" id={item.id} target="_blank" href={item.url}>
+          <a className="item" key={item.id} target="_blank" href={item.url}>
             <picture>
               <img src={item.image} alt={item.name} />
             </picture>

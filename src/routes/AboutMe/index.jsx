@@ -1,6 +1,9 @@
 import "./styles.scss";
-import Perfil from "../../images/Perfil.jpeg";
+import { Suspense, lazy } from "react";
 import { Link } from "react-router-dom";
+import Loader from "../../components/Loader";
+
+const Perfil = lazy(() => import("../../components/Perfil"));
 
 const AboutMe = () => {
   return (
@@ -9,8 +12,10 @@ const AboutMe = () => {
         Hola
         <br /> Mi nombre es <span>Miguel Vásquez</span>
       </h2>
-      <picture>
-        <img src={Perfil} alt="Quarzizus Miguel Vásquez" />
+      <picture className="container">
+        <Suspense fallback={<Loader />}>
+          <Perfil />
+        </Suspense>
       </picture>
       <p>
         Me gustan los puzzles, el funk, los gatos y las nubes.

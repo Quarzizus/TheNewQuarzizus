@@ -11,10 +11,13 @@
     }
   }
 }
-picture {
-  width: 80%;
-  img {
-    width: 100%;
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  svg {
+    margin: 20px 0;
   }
 }
 

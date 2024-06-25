@@ -1,5 +1,6 @@
 {
   "name": "thenewquarzizus",
+  "private": true,
   "version": "1.0.0",
   "description": "Porfolio",
   "scripts": {
@@ -18,8 +19,10 @@
     "react-router-dom": "^6.3.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^2.0.1",
-    "sass": "^1.54.7",
-    "vite": "^3.0.9"
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "sass": "^1.77.6",
+    "vite": "^5.3.1"
   }
 }

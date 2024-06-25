@@ -1,0 +1,35 @@
+@import "../../../../styles/Variables.scss";
+
+.Tasks {
+  p {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  .title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    li {
+      font-family: $font-p-2;
+      list-style: none;
+      font-weight: lighter;
+      font-size: 1.2rem;
+      position: relative;
+    }
+    li::before {
+      position: absolute;
+      left: -15px;
+      top: 8px;
+      transform: rotate(45deg);
+      content: "";
+      height: 8px;
+      width: 8px;
+      display: block;
+      @include backRGB;
+    }
+  }
+}

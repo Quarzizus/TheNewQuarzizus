@@ -1,0 +1,57 @@
+@import "../../styles/Variables.scss";
+
+.AboutMe {
+  margin-bottom: 30px;
+  h2 {
+    font-family: $font-p;
+    margin-bottom: 1rem;
+
+    span {
+      @include textRGB;
+    }
+  }
+}
+picture {
+  width: 80%;
+  img {
+    width: 100%;
+  }
+}
+
+p {
+  font-family: $font-p-2;
+  line-height: 26px;
+  margin-top: 0.7rem;
+  font-size: 1.2rem;
+  transition: 1s ease all;
+  .Link {
+    @include textRGB;
+  }
+}
+
+ul {
+  margin: 10px 0 0 10%;
+  li {
+    list-style: none;
+    font-weight: lighter;
+    font-size: 1.3rem;
+    position: relative;
+  }
+  li::before {
+    position: absolute;
+    left: -15px;
+    top: 8px;
+    transform: rotate(45deg);
+    content: "";
+    height: 8px;
+    width: 8px;
+    display: block;
+    @include backRGB;
+  }
+}
+
+@media screen and (min-width: 215px) and (max-width: 700px) {
+  .AboutMe {
+    margin-right: 0;
+  }
+}

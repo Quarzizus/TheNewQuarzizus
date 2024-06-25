@@ -1,0 +1,31 @@
+@import "../../../../styles/Variables.scss";
+
+.ProjectExperience {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  .header {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    picture {
+      width: 100px;
+    }
+    .title {
+      font-family: $font-p;
+      font-weight: bold;
+      text-align: left;
+    }
+  }
+  .main {
+    p {
+      margin: 0;
+      font-size: 1.2rem;
+    }
+    .jobtitle {
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+  }
+}

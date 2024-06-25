@@ -1,5 +1,5 @@
 import "./styles.scss";
-import Casatoro from "../../../../images/Casatoro.jpg";
+import Casatoro from "../../../../images/brands/Casatoro.jpg";
 import { Tasks } from "../Tasks";
 import { Results } from "../Results";
 import { Skills } from "../Skills";

@@ -23,6 +23,7 @@ const AboutMe = () => {
         <Link to={"/experiencia"} className="Link">
           experiencia
         </Link>
+        .
       </p>
     </section>
   );

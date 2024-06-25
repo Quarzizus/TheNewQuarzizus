@@ -1,4 +1,9 @@
+@import "../../../../styles/Variables.scss";
+
 .Results {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   p {
     margin: 0;
     font-size: 1.2rem;
@@ -6,5 +11,23 @@
   .title {
     font-size: 1.2rem;
     font-weight: bold;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+      text-decoration: none;
+      picture {
+        width: 70px;
+      }
+    }
+    .item:hover {
+      @include textRGB;
+    }
   }
 }

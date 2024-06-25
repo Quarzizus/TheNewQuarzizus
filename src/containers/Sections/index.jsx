@@ -1,4 +1,4 @@
-import "../styles/containers/Sections.scss";
+import "./styles.scss";
 
 const Sections = ({ children }) => {
   return <section className="Sections">{children}</section>;

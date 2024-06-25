@@ -1,4 +1,4 @@
-@import "../Assets/Variables.scss";
+@import "../../styles/Variables.scss";
 
 .Navigator-active {
   grid-column: 1/2;
@@ -21,7 +21,7 @@
       font-family: $font-p;
       font-weight: bold;
       position: relative;
-      margin-left: 10px;
+      margin-left: 11px;
       transition: 0.2 ease all;
     }
     .Link:hover {

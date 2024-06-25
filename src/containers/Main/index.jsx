@@ -1,4 +1,4 @@
-import "../styles/containers/Main.scss";
+import "./styles.scss";
 
 const Main = ({ children }) => {
   return <main className="Main">{children}</main>;

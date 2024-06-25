@@ -1,5 +1,5 @@
-import "../styles/routes/AboutMe.scss";
-import Perfil from "../images/Perfil.jpeg";
+import "./styles.scss";
+import Perfil from "../../images/Perfil.jpeg";
 
 const AboutMe = () => {
   return (

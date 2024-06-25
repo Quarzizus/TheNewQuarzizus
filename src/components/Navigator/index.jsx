@@ -1,8 +1,8 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import "../styles/components/Navigator.scss";
+import "./styles.scss";
 
 const Navigator = () => {
   const navActiveRef = useRef();
@@ -46,17 +46,22 @@ const Navigator = () => {
         <ul>
           <li>
             <Link to="/" className="Link">
-              About Me
+              Un poco sobre mí
             </Link>
           </li>
           <li>
-            <Link to="/projects" className="Link">
-              Projects
+            <Link to="/experiencia" className="Link">
+              Experiencia
             </Link>
           </li>
           <li>
-            <Link to="/contactme" className="Link">
-              Contact me
+            <Link to="/proyectos-personales" className="Link">
+              Proyectos personales
+            </Link>
+          </li>
+          <li>
+            <Link to="/contacto" className="Link">
+              Contáctame
             </Link>
           </li>
         </ul>

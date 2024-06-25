@@ -1,4 +1,4 @@
-import "../styles/components/Project.scss";
+import "./styles.scss";
 
 const Project = ({ img, title, description, repo, page }) => {
   return (

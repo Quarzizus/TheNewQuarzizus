@@ -1,8 +1,8 @@
-import GithubIcon from "../images/github.svg";
-import TwitterIcon from "../images/twitter.svg";
-import LinkedinIcon from "../images/linkedin.svg";
-import PlatziIcon from "../images/platzi.png";
-import "../styles/routes/ContactMe.scss";
+import GithubIcon from "../../images/github.svg";
+import TwitterIcon from "../../images/twitter.svg";
+import LinkedinIcon from "../../images/linkedin.svg";
+import PlatziIcon from "../../images/platzi.png";
+import "./styles.scss";
 
 const ContactMe = () => {
   return (

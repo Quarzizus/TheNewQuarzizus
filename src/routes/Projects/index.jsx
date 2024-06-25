@@ -1,8 +1,8 @@
+import "./styles.scss";
+import { initialState } from "../../context/initialState";
 import { Suspense, lazy } from "react";
-const Project = lazy(() => import("../components/Project"));
-import Loader from "../components/Loader";
-import { initialState } from "../context/initialState";
-import "../styles/routes/Projects.scss";
+import Loader from "../../components/Loader";
+const Project = lazy(() => import("../../components/Project"));
 
 const Projects = () => {
   return (

@@ -1,4 +1,4 @@
-import "../styles/components/Header.scss";
+import "./styles.scss";
 
 const Header = () => {
   const date = new Date();
@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header className="Header">
       <article className="Header_aside-left">
-        "Fracasa otra vez, fracasa mejor"
+        "Mejor un poco todos los días que mucho de vez en cuando"
       </article>
       <h1 className="Header_title">The New Quarzizus Day</h1>
       <article className="Header_aside-right">{`${day}/${month}/${year}`}</article>

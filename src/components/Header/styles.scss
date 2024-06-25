@@ -2,12 +2,12 @@
 
 .Header {
   height: 150px;
-  width: 80%;
+  width: 100%;
   border-bottom: 2px outset $whiteFont;
   display: flex;
   align-items: center;
   justify-content: center;
-
+  gap: 15px;
   .Header_title {
     font-family: $font-title-2;
     font-size: 40px;

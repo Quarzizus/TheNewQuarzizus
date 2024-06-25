@@ -10,7 +10,9 @@
     justify-content: flex-start;
     align-items: center;
     picture {
-      width: 100px;
+      img {
+        width: 100px;
+      }
     }
     .title {
       font-family: $font-p;

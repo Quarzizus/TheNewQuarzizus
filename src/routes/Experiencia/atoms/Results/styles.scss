@@ -22,8 +22,11 @@
       gap: 10px;
       cursor: pointer;
       text-decoration: none;
+      width: 100%;
       picture {
-        width: 70px;
+        img {
+          width: 70px;
+        }
       }
     }
     .item:hover {

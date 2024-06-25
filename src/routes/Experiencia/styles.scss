@@ -1,0 +1,12 @@
+@import "../../styles/Variables.scss";
+
+.Experiencia {
+  display: flex;
+  flex-direction: column;
+  h2 {
+    font-family: $font-p;
+    margin: 0 0 30px 0;
+    font-size: 1.5em;
+    @include textRGB;
+  }
+}

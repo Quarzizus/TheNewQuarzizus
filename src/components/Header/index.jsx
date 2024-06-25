@@ -10,7 +10,7 @@ const Header = () => {
       <article className="Header_aside-left">
         "Mejor un poco todos los días que mucho de vez en cuando"
       </article>
-      <h1 className="Header_title">The New Quarzizus Day</h1>
+      <h1 className="Header_title">Quarzizus</h1>
       <article className="Header_aside-right">{`${day}/${month}/${year}`}</article>
     </header>
   );

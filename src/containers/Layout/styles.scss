@@ -7,13 +7,14 @@
   color: $whiteFont;
 }
 body {
-  background: $background;
+  background: $background url("/src/bg.svg") no-repeat center center fixed;
+  background-size: cover;
 }
 
 .App {
   max-width: 740px;
   margin: auto;
-  background-color: $background;
+  background-color: transparent;
   display: flex;
   min-height: 100vh;
   max-height: auto;

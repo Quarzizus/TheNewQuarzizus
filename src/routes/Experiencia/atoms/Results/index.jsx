@@ -1,12 +1,13 @@
 import "./styles.scss";
-import { Items } from "./items";
 
-const Results = () => {
+const Results = ({ results }) => {
+  if (!results || results.length === 0) return null;
+
   return (
     <section className="Results">
       <p className="title">Resultados</p>
       <div className="container">
-        {Items.map((item) => (
+        {results.map((item) => (
           <a className="item" key={item.id} target="_blank" href={item.url}>
             <picture>
               <img src={item.image} alt={item.name} />
@@ -18,4 +19,5 @@ const Results = () => {
     </section>
   );
 };
+
 export { Results };

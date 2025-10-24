@@ -10,3 +10,15 @@
     @include textRGB;
   }
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.separator {
+  width: 100%;
+  height: 1px;
+  background-color: $whiteFont;
+  margin: 15px 0;
+}

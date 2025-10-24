@@ -1,0 +1,25 @@
+Corsox
+Corsox es una empresa internacional dedicada a ofrecer soluciones tecnológicas y estratégicas en Desarrollo de Software, SaaS, Consultoría Tecnológica y Marketing Digital.
+
+Septiembre 2024 - Actualmente
+Medellín, Antioquia, Colombia · En remoto
+
+Diseñé e implementé estrategias de testing end-to-end (E2E), mejorando la cobertura de pruebas y reduciendo errores en producción.
+Automatizé procesos de limpieza y formateo de datos con Python, optimizando tiempos de procesamiento y garantizando integridad de la información.
+Desarrollé e integré funcionalidades clave para el sistema de Recursos Humanos de Farmatodo en el frontend, cumpliendo con los estándares de calidad y plazos establecidos.
+Produje materiales audiovisuales y guías de usuario para facilitar la adopción y capacitación en el uso de la aplicación interna.
+Lideré sesiones de levantamiento de requerimientos y participé en la planeación de productos internos, alineando necesidades del negocio con soluciones técnicas viables.
+
+Experiencia
+
+CasaToro Automotriz
+CasaToro, fundada en 1934, es la red de concesionarios y servicios posventa más grande de Colombia. Representa marcas líderes como Ford, Mazda, Renault, Volkswagen, Audi, SEAT, Cupra y John Deere.
+
+Abril 2022 - Junio 2024 . 2 años 3 meses
+Medellín, Antioquia, Colombia · En remoto
+
+Convertí diseños en Figma, Sketch y Adobe XD en aplicaciones web funcionales, asegurando fidelidad visual y experiencia de usuario óptima.
+Implementé flujos y pasarelas de pago seguras y eficientes, facilitando la integración de sistemas de cobro en entornos web.
+Investigué y apliqué estrategias de testing frontend (unitarias y E2E), mejorando la estabilidad y confiabilidad de las interfaces.
+Brindé soporte técnico y mantenimiento a sitios web de marcas reconocidas como Mercedes-Benz, Mazda, Mitsubishi y Chevrolet, garantizando alto rendimiento y disponibilidad.
+Ejecuté estrategias de optimización SEO en landing pages, aumentando su visibilidad y posicionamiento en buscadores.

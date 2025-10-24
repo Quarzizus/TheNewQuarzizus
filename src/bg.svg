@@ -1,0 +1,167 @@
+<svg width="100%" height="100%" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo con degradado -->
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#0a1529"/>
+      <stop offset="40%" style="stop-color:#0c1638"/>
+      <stop offset="70%" style="stop-color:#0a1022"/>
+      <stop offset="100%" style="stop-color:#04050d"/>
+    </radialGradient>
+
+    <radialGradient id="purpleGlow" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:rgba(128, 0, 128, 0.2)"/>
+      <stop offset="100%" style="stop-color:rgba(128, 0, 128, 0)"/>
+    </radialGradient>
+
+    <radialGradient id="purpleGlow2" cx="70%" cy="80%" r="60%">
+      <stop offset="0%" style="stop-color:rgba(147, 112, 219, 0.15)"/>
+      <stop offset="100%" style="stop-color:rgba(147, 112, 219, 0)"/>
+    </radialGradient>
+
+    <linearGradient id="shootingStarGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="100%" style="stop-color:#4169E1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rectángulo de fondo -->
+  <rect width="100%" height="100%" fill="url(#sky)"/>
+
+  <!-- Áreas moradas -->
+  <rect width="100%" height="100%" fill="url(#purpleGlow)" opacity="0.7"/>
+  <rect width="100%" height="100%" fill="url(#purpleGlow2)" opacity="0.7"/>
+
+  <!-- Estrellas -->
+  <g>
+    <!-- Estrellas pequeñas blancas -->
+    <circle cx="150" cy="150" r="1" fill="#ffffff">
+      <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="550" cy="250" r="1.2" fill="#ffffff">
+      <animate attributeName="opacity" values="0;1;0" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="950" cy="150" r="1" fill="#ffffff">
+      <animate attributeName="opacity" values="0;1;0" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1250" cy="350" r="1.3" fill="#ffffff">
+      <animate attributeName="opacity" values="0;1;0" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1650" cy="150" r="1" fill="#ffffff">
+      <animate attributeName="opacity" values="0;1;0" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="350" cy="450" r="1.1" fill="#ffffff">
+      <animate attributeName="opacity" values="0;1;0" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="750" cy="550" r="1" fill="#ffffff">
+      <animate attributeName="opacity" values="0;1;0" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Estrellas amarillentas -->
+    <circle cx="1150" cy="650" r="1.2" fill="#ffffc0">
+      <animate attributeName="opacity" values="0;1;0" dur="3.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1550" cy="750" r="1" fill="#ffffc0">
+      <animate attributeName="opacity" values="0;1;0" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="250" cy="850" r="1.3" fill="#ffffc0">
+      <animate attributeName="opacity" values="0;1;0" dur="4.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="450" cy="100" r="1.5" fill="#ffffc0">
+      <animate attributeName="opacity" values="0;1;0" dur="3.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="850" cy="300" r="1.8" fill="#ffffc0">
+      <animate attributeName="opacity" values="0;1;0" dur="4.3s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Estrellas medianas blancas -->
+    <circle cx="1250" cy="200" r="1.5" fill="#ffffff">
+      <animate attributeName="opacity" values="0;1;0" dur="3.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1650" cy="400" r="1.7" fill="#ffffff">
+      <animate attributeName="opacity" values="0;1;0" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="150" cy="500" r="1.5" fill="#ffffff">
+      <animate attributeName="opacity" values="0;1;0" dur="4.4s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Más estrellas amarillentas -->
+    <circle cx="550" cy="600" r="1.6" fill="#fff8e0">
+      <animate attributeName="opacity" values="0;1;0" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="950" cy="700" r="1.5" fill="#fff8e0">
+      <animate attributeName="opacity" values="0;1;0" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1350" cy="800" r="1.8" fill="#fffacd">
+      <animate attributeName="opacity" values="0;1;0" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Estrellas brillantes -->
+    <circle cx="650" cy="150" r="2" fill="#ffffff">
+      <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1050" cy="450" r="2.2" fill="#fffdd0">
+      <animate attributeName="opacity" values="0;1;0" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1450" cy="250" r="2" fill="#ffffff">
+      <animate attributeName="opacity" values="0;1;0" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="250" cy="650" r="2.1" fill="#fffdd0">
+      <animate attributeName="opacity" values="0;1;0" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Estrellas moradas -->
+    <circle cx="190" cy="350" r="1.8" fill="#e6e6fa">
+      <animate attributeName="opacity" values="0;1;0" dur="4.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1200" cy="450" r="1.9" fill="#d8bfd8">
+      <animate attributeName="opacity" values="0;1;0" dur="3.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="700" cy="790" r="1.7" fill="#e6e6fa">
+      <animate attributeName="opacity" values="0;1;0" dur="3.9s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Estrellas adicionales -->
+    <circle cx="300" cy="230" r="1.4" fill="#ffffff">
+      <animate attributeName="opacity" values="0;1;0" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1120" cy="540" r="1.6" fill="#fffacd">
+      <animate attributeName="opacity" values="0;1;0" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1680" cy="620" r="1.3" fill="#ffffff">
+      <animate attributeName="opacity" values="0;1;0" dur="3.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="420" cy="670" r="1.5" fill="#ffffc0">
+      <animate attributeName="opacity" values="0;1;0" dur="4.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Estrellas fugaces -->
+  <g>
+    <!-- Estrella fugaz 1 - Parte superior derecha (más lenta) -->
+    <line x1="1700" y1="300" x2="1600" y2="400" stroke="url(#shootingStarGradient)" stroke-width="2" stroke-linecap="round">
+      <animate attributeName="opacity" values="0;0;1;1;0" dur="15s" begin="2s" repeatCount="indefinite"/>
+      <animate attributeName="x1" values="1700;1500" dur="3s" begin="2s" repeatCount="indefinite"/>
+      <animate attributeName="y1" values="300;500" dur="3s" begin="2s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1600;1400" dur="3s" begin="2s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="400;600" dur="3s" begin="2s" repeatCount="indefinite"/>
+    </line>
+
+    <!-- Estrella fugaz 2 - Parte superior izquierda (más lenta) -->
+    <line x1="400" y1="200" x2="300" y2="300" stroke="url(#shootingStarGradient)" stroke-width="2" stroke-linecap="round">
+      <animate attributeName="opacity" values="0;0;1;1;0" dur="18s" begin="8s" repeatCount="indefinite"/>
+      <animate attributeName="x1" values="400;200" dur="3.5s" begin="8s" repeatCount="indefinite"/>
+      <animate attributeName="y1" values="200;400" dur="3.5s" begin="8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="300;100" dur="3.5s" begin="8s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="300;500" dur="3.5s" begin="8s" repeatCount="indefinite"/>
+    </line>
+
+    <!-- Estrella fugaz 3 - Parte inferior derecha (aparece después de la primera) -->
+    <line x1="1500" y1="700" x2="1400" y2="800" stroke="url(#shootingStarGradient)" stroke-width="2" stroke-linecap="round">
+      <animate attributeName="opacity" values="0;0;1;1;0" dur="20s" begin="15s" repeatCount="indefinite"/>
+      <animate attributeName="x1" values="1500;1300" dur="4s" begin="15s" repeatCount="indefinite"/>
+      <animate attributeName="y1" values="700;900" dur="4s" begin="15s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1400;1200" dur="4s" begin="15s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="800;1000" dur="4s" begin="15s" repeatCount="indefinite"/>
+    </line>
+  </g>
+</svg>
